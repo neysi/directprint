@@ -1,6 +1,6 @@
 # PHP Direct Print
 This library allows printing files directly from PHP.
-Avoid print dialog preview in the web browser.
+Avoid print dialog preview in the web browser. CUPS Required.
 
 ## Installation
 
@@ -57,5 +57,5 @@ Displays print queue
 ###cancelAllJobs()
 Cancel all of the print queue
 
-###cancelSpecificJob($jobID)
+###cancelJob($jobID)
 Cancel a specific print job
