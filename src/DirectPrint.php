@@ -22,7 +22,7 @@ class DirectPrint
       exec('cancel -a');
   }
 
-  public function cancelSpecificJob($jobID)
+  public function cancelJob($jobID)
   {
       exec('cancel -a '.$jobID);
   }
