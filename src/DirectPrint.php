@@ -4,8 +4,11 @@
  *
  */
 namespace Neysi\DirectPrint;
+
 class DirectPrint
 {
+
+
 
   public static function getPrinters()
   {
@@ -37,10 +40,16 @@ class DirectPrint
      }
     exec('lp -d '.$printerName.' '. $fileName,$out);
 
-    //Get Print ID
+    //Get job id
     preg_match_all("!-([\d]+) \((.*)\)!",$out[0],$arr);
 
-    return isset($arr[1]) ? $arr[1][0] : null;
+    if (isset($arr[1])){
+          $id = $printerName .'-'. $arr[1][0];
+    }else{
+          $id = null;
+    }
+
+    return $id;
 
   }
 

@@ -1,6 +1,6 @@
 # PHP Direct Print
 This library allows printing files directly from PHP.
-Avoid Dialgo print preview in the web browser.
+Avoid print dialogo preview in the web browser.
 
 ## Installation
 
@@ -59,7 +59,3 @@ Cancel all of the print queue
 
 ###cancelSpecificJob($jobID)
 Cancel a specific print job
-
-
-
-
