@@ -1,6 +1,6 @@
 # PHP Direct Print
 This library allows printing files directly from PHP.
-Avoid print dialogo preview in the web browser.
+Avoid print dialog preview in the web browser.
 
 ## Installation
 
