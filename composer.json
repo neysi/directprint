@@ -1,0 +1,25 @@
+{
+    "name": "neysi/directprint",
+    "description": "Easy and direct file print from PHP",
+    "license": "MIT",
+    "keywords": ["directprint,PHP Print,CUPS"],
+    "authors": [
+        {
+            "name": "Neysi Tuesta",
+            "email": "neysitcs@gmail.com",
+            "homepage": "http://revive.pe"
+        }
+    ],
+    "require": {
+      "php": ">=5.3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Neysi\\DirectPrint\\": "src"
+        }
+    },
+    "minimum-stability": "dev"
+}
