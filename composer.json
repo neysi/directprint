@@ -2,7 +2,7 @@
     "name": "neysi/directprint",
     "description": "Easy and direct file print from PHP",
     "license": "MIT",
-    "keywords": ["directprint,PHP Print,CUPS"],
+    "keywords": ["directprint","PHP", "Print","CUPS"],
     "authors": [
         {
             "name": "Neysi Tuesta",
