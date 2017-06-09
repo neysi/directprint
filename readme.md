@@ -1,6 +1,6 @@
 # PHP Direct Print
 This library allows printing files directly from PHP.
-Avoid print dialog preview in the web browser. CUPS Required.
+Avoid print dialog preview in the web browser. Linux and MacOS Compatible. CUPS Required.
 
 ## Installation
 
