@@ -6,13 +6,13 @@ Avoid print dialog preview in the web browser. Linux and MacOS Compatible. CUPS 
 
 ### Include the library
 
-####Composer
+#### Composer
 If you are using composer, then add `neysi/directprint` as a dependency:
 
 ```sh
 composer require neysi/directprint
 ```
-####Manual
+#### Manual
 
 If you have no composer, download the code and include `autoload.php`
 
@@ -27,9 +27,9 @@ require __DIR__ . '/vendor/neysi/directprint/autoload.php');
 
 ```
 
-##Methods
+## Methods
 
-###printFile($fileName,$printerName)
+### printFile($fileName,$printerName)
 
 Print on the default printer:
 
@@ -42,20 +42,20 @@ Print on the Canon  iP2800 Printer:
 $id = DirectPrint::printFile('invoice.pdf','Canon_iP2800_series') ;
 ```
 
-###getDefaultPrinter()
+### getDefaultPrinter()
 ```php
 $printerName =  DirectPrint::getDefaultPrinter() ;
 ```
 
-###getPrinters()
+### getPrinters()
 ```php
 $printers =  DirectPrint::getPrinters() ;
 ```
-###activeJobs()
+### activeJobs()
 Displays print queue
 
-###cancelAllJobs()
+### cancelAllJobs()
 Cancel all of the print queue
 
-###cancelJob($jobID)
+### cancelJob($jobID)
 Cancel a specific print job
